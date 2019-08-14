@@ -2,8 +2,10 @@
 项目主要工具： vue
 
 二、项目成员
+
 **组长：黄盛强
 **成员：江彬，熊志，蒋博
+
 三、项目介绍
 项目结构:
 
@@ -14,7 +16,9 @@ router:项目的路由配置,
 App.vue:万年老二组件,
 store.js：vuex的状态仓库,
 mian.js:项目的入口js
+
 四、项目分工
+
 熊志： 图表页面(pages/home)
 蒋博： 明细页面(pages/billing)
 黄盛强： 我的页面(pages/mine)
