@@ -38,7 +38,7 @@ export default {
     flex: 1;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: center
   }
 }
 </style>

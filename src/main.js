@@ -2,8 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router/index";
 import store from "./store";
+import { Picker } from 'mint-ui';
+Vue.component(Picker.name, Picker);
 
-Vue.config.productionTip = false;
 
 new Vue({
   router,
