@@ -15,7 +15,19 @@ const routes = [
   mine,
   {
     path: "/",
-    redirect: "/home"
+    redirect: "/login"
+  },
+  {
+    path: "/pageBill",
+    component: () => import("../pages/pageBill")
+  },
+  {
+    path: "/tologin",
+    component: () => import("../pages/tologin")
+  },
+  {
+    path: "/torigster",
+    component: () => import("../pages/torigster")
   }
 ];
 

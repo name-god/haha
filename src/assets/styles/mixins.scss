@@ -1,0 +1,57 @@
+@mixin border-top {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background-color: #000;
+    transform: scale(0.5);
+  }
+}
+
+@mixin border-none {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    background-color: #fff;
+
+  }
+}
+
+@mixin line-left {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 43px;
+    height: 1px;
+    width: 260px;
+    background-color: #000;
+    transform: scale(0.5);
+  }
+}
+
+@mixin line-right {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 41px;
+    height: 1px;
+    width: 255px;
+    background-color: #000;
+    transform: scale(0.5);
+  }
+}
